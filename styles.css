@@ -20,6 +20,17 @@ body {
 
 }
 
+#menu_foreground {
+    background-image: url(surfer.svg);
+    position: absolute;
+    background-size: 100%;
+    width: 20vw;
+    height: 45vw;
+    top: 8vw;
+    left: 3vw;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
 
 
 
@@ -58,8 +69,8 @@ body {
     background-size: 100%;
     position: absolute;
     background-repeat: no-repeat;
-    left: 50vw;
     top: 20vw;
+
 }
 
 #skrald {
@@ -69,7 +80,7 @@ body {
     background-size: 100%;
     position: absolute;
     background-repeat: no-repeat;
-    left: 40vw;
+
     top: 15vw;
 }
 
@@ -80,7 +91,7 @@ body {
     background-size: 100%;
     position: absolute;
     background-repeat: no-repeat;
-    left: 70vw;
+
     top: 35vw;
 }
 
@@ -92,7 +103,7 @@ body {
     background-size: 100%;
     position: absolute;
     background-repeat: no-repeat;
-    left: 75vw;
+
     top: 20vw;
 }
 
@@ -105,21 +116,151 @@ body {
     background-size: 100%;
     position: absolute;
     background-repeat: no-repeat;
-    left: 40vw;
+
     top: 30vw;
 }
 
 
-#Soda {
+#soda {
     width: 8vw;
     height: 13vw;
     background-image: url(Soda.svg);
     background-size: 100%;
     position: absolute;
     background-repeat: no-repeat;
-    left: 25vw;
+
     top: 30vw;
+
 }
+
+/***************** Animation ****************/
+
+.fisk_frem_og_tilbage {
+    animation-name: fisk_frem_og_tilbage;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    transform-origin: 15% 100%;
+
+
+}
+
+@keyframes fisk_frem_og_tilbage {
+    0% {
+        transform: translateX(-100vw);
+    }
+
+    100% {
+        transform: translateX(200vw);
+    }
+}
+
+
+.skrald_frem_og_tilbage {
+    animation-name: skrald_frem_og_tilbage;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    transform-origin: 15% 1%;
+
+
+}
+
+@keyframes skrald_frem_og_tilbage {
+    0% {
+        transform: translateX(1vw);
+    }
+
+    100% {
+        transform: translateX(100vw);
+    }
+}
+
+
+.LilleSoestjerne_frem_og_tilbage {
+    animation-name: LilleSoestjerne_frem_og_tilbage;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    transform-origin: 15% 1%;
+
+
+}
+
+@keyframes LilleSoestjerne_frem_og_tilbage {
+    0% {
+        transform: translateX(-100vw);
+    }
+
+    100% {
+        transform: translateX(100vw);
+    }
+}
+
+.Vandflaske_frem_og_tilbage {
+    animation-name: Vandflaske_frem_og_tilbage;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    transform-origin: 2% 1%;
+}
+
+@keyframes Vandflaske_frem_og_tilbage {
+    0% {
+        transform: translateX(-100vw);
+    }
+
+    100% {
+        transform: translateX(100vw);
+    }
+}
+
+.KrabbeLille_frem_og_tilbage {
+    animation-name: KrabbeLille_frem_og_tilbage;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    transform-origin: 15% 1%;
+}
+
+@keyframes KrabbeLille_frem_og_tilbage {
+    0% {
+        transform: translateX(1vw);
+    }
+
+    100% {
+        transform: translateX(100vw);
+    }
+}
+
+.soda_frem_og_tilbage {
+    animation-name: soda_frem_og_tilbage;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+
+}
+
+@keyframes soda_frem_og_tilbage {
+    0% {
+        transform: translateX(0vw);
+    }
+
+    9% {
+        transform: translateX(1vw);
+    }
+
+    100% {
+        transform: translateX(100vw);
+    }
+}
+
 
 /***************** Titelskærm ****************/
 
@@ -134,6 +275,8 @@ body {
 
 
 }
+
+
 
 /***************** ELEMENTER I TITELSKÆRM ****************/
 
