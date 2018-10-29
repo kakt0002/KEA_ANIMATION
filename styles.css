@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+
+}
+
+    {
+    overflow: hidden;
+}
+
+
+/***************** SPIL SCENE ****************/
+
+#game {
+    width: 100vw;
+    height: 56vw;
+    background-image: url(Scenen.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+/***************** ELEMENTER I SPIL SCENE ****************/
+
+#pointklode {
+    width: 14vw;
+    height: 20vw;
+    background-image: url(Pointklode.svg);
+    background-size: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 85vw;
+    top: 41vw;
+
+}
+
+#tid {
+    width: 14vw;
+    height: 20vw;
+    background-image: url(Tid.svg);
+    background-size: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 65vw;
+    top: 49vw;
+
+
+
+}
+
+/***************** Titelskærm ****************/
+
+#start {
+    position: relative;
+    background-image: url(Startsk%C3%A6rm.svg);
+    width: 100vw;
+    height: 56vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+
+
+}
+
+/***************** ELEMENTER I TITELSKÆRM ****************/
+
+#start .startknap {
+    width: 16vw;
+    height: 20vw;
+    background-image: url(Startknap.svg);
+    background-size: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 49vw;
+    top: 4vw;
+}
+
+#start .indstillinger {
+    width: 16vw;
+    height: 20vw;
+    background-image: url(Indstillinger.svg);
+    background-size: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 65vw;
+    top: 6vw;
+
+}
+
+/***************** SETTINGS ****************/
+
+#settings {
+
+    position: relative;
+    background-image: url(Startsk%C3%A6rm%20copy.svg);
+    ;
+    width: 100vw;
+    height: 56vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+
+}
+
+/***************** ELEMENTER I SETTINGS ****************/
+
+#settings .toggleknap1 {
+    width: 16vw;
+    height: 20vw;
+    position: absolute;
+    background-image: url(toggleknap1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: 67vw;
+    top: 13vw;
+
+
+}
+
+#settings .toggleknap2 {
+    width: 16vw;
+    height: 20vw;
+    position: absolute;
+    background-image: url(toggleknap1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: 67vw;
+    top: 29vw;
+
+}
+
+#settings .lukkeknap {
+    width: 5vw;
+    height: 10vw;
+    position: absolute;
+    background-image: url(lukkeknap.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: 80vw;
+    top: 8vw;
+}
+
+/***************** GAME OVER ****************/
+
+
+#gameover {
+    position: relative;
+    background-image: url(Dutabte.svg);
+    width: 100vw;
+    height: 56vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+
+
+
+}
+
+#gameover .spiligen {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(Spiligenstor.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: 40vw;
+    top: 35vw;
+}
+
+/***************** LEVEL COMPLETE ****************/
+
+
+#levelcomplete {
+    position: relative;
+    background-image: url(Duvandt.svg);
+    width: 100vw;
+    height: 56vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+
+}
+
+#levelcomplete .spiligen {
+    position: absolute;
+    width: 20vw;
+    height: 30vw;
+    background-image: url(Spiligenstor.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: 45vw;
+    top: 200px;
+}
